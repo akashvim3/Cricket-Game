@@ -13,7 +13,7 @@ Welcome to **Bat-Ball-Stump**, a fun twist on the classic Rock-Paper-Scissors ga
 
 ## Demo 📈🚀🔄
 
-> Check out a live demo of the game [here](https://yourdemo.url)! 🎉🎡🌟
+> Check out a live demo of the game [here](https://akashvim3.github.io/Cricket-Game/)! 🎉🎡🌟
 
 ## How to Play 🛠️🎮📈
 
