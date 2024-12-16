@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Game</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Bat Ball Stump Game</h1>
+
+    <div class="choices">
+      <button class="choice-button" onclick="handleUserChoice('Bat')">
+        <img src="assets/images/bat.png" alt="Bat" class="choice-image">
+      </button>
+
+      <button class="choice-button" onclick="handleUserChoice('Ball')">
+        <img src="assets/images/ball.png" alt="Ball" class="choice-image">
+      </button>
+
+      <button class="choice-button" onclick="handleUserChoice('Stump')">
+        <img src="assets/images/stump.png" alt="Stump" class="choice-image">
+      </button>
+    </div>
+
+    <div class="results">
+      <h3 id="user-move"></h3>
+      <h3 id="computer-move"></h3>
+      <h3 id="result"></h3>
+      <h3 id="score"></h3>
+    </div>
+
+    <button class="reset-button" onclick="resetGame()">Reset</button>
+  </main>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
